@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function TripItem({ trip }) {
   return (
-    <Link to={`/trip-detail/${trip.slug}`}>
+    <Link to={`/trip-list/${trip.slug}`}>
       <div className="col-md-6 col-lg-4 mb-5">
         <div
           className="portfolio-item mx-auto"
